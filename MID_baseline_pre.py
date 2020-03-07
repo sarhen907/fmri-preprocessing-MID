@@ -204,16 +204,15 @@ for group in groupList:
 						numtimepoints = numtimepoints_1.decode()
 						print("Number of volumes: %s" %(numtimepoints))
 
-						#set up evfiles
 						evfile1 = subjfolder + "losehigh_incorrect_run%d.txt" %(run)
-						evfile2 = subjfolder + "losehigh_correct_run%d.txt" %(run)
+						evfile2 = subjfolder + "losehighcorrect_run%d.txt" %(run)
 						evfile3 = subjfolder + "loselow_incorrect_run%d.txt" %(run)
-						evfile4 = subjfolder + "loselow_correct_run%d.txt" %(run)
+						evfile4 = subjfolder + "loselowcorrect_run%d.txt" %(run)
 						evfile5 = subjfolder + "neutral_run%d.txt" %(run)
 						evfile6 = subjfolder + "winhigh_incorrect_run%d.txt" %(run)
-						evfile7 = subjfolder + "winhigh_correct_run%d.txt" %(run)
+						evfile7 = subjfolder + "winhighcorrect_run%d.txt" %(run)
 						evfile8 = subjfolder + "winlow_incorrect_run%d.txt" %(run)
-						evfile9 = subjfolder + "winlow_correct_run%d.txt" %(run)
+						evfile9 = subjfolder + "winlowcorrect_run%d.txt" %(run)
 
 						print(sectionColor + "This subject has a scrub folder %s%s" %(scrubout,mainColor))
 
